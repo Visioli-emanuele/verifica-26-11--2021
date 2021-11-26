@@ -6,9 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./visioli3.component.css']
 })
 export class Visioli3Component implements OnInit {
-
-  constructor() { }
-
+  terzo: string;
+  constructor() { 
+    this.terzo="terzo";
+  }
   ngOnInit(): void {
   }
 
